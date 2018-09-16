@@ -119,118 +119,117 @@ class Pergaminho {
     $transforma2 = [];
 
     foreach ($transforma1 as $transfoma) {
-      $transforma2[] = str_replace('w', '.2.', $transfoma);
+      $transforma2[] = str_replace('w', '.10.', $transfoma);
 
     }
 
     $transforma3 = [];
     foreach ($transforma2 as $transforma) {
-      $transforma3[] = str_replace('h', '.3.', $transforma);
+      $transforma3[] = str_replace('h', '.11.', $transforma);
 
     }
 
     $transforma4 = [];
     foreach ($transforma3 as $transforma) {
-      $transforma4[] = str_replace('z', '.4.', $transforma);
+      $transforma4[] = str_replace('z', '.12.', $transforma);
 
     }
 
     $transforma5 = [];
     foreach ($transforma4 as $transforma) {
-      $transforma5[] = str_replace('k', '.5.', $transforma);
+      $transforma5[] = str_replace('k', '.13.', $transforma);
 
     }
 
     $transforma6 = [];
     foreach ($transforma5 as $transforma) {
-      $transforma6[] = str_replace('d', '.6.', $transforma);
+      $transforma6[] = str_replace('d', '.14.', $transforma);
 
     }
 
     $transforma7 = [];
     foreach ($transforma6 as $transforma) {
-      $transforma7[] = str_replace('f', '.7.', $transforma);
+      $transforma7[] = str_replace('f', '.15.', $transforma);
 
     }
 
     $transforma8 = [];
     foreach ($transforma7 as $transforma) {
-      $transforma8[] = str_replace('v', '.8.', $transforma);
+      $transforma8[] = str_replace('v', '.16.', $transforma);
 
     }
 
     $transforma9 = [];
     foreach ($transforma8 as $transforma) {
-      $transforma9[] = str_replace('c', '.9.', $transforma);
+      $transforma9[] = str_replace('c', '.17.', $transforma);
 
     }
 
     $transforma10 = [];
     foreach ($transforma9 as $transforma) {
-      $transforma10[] = str_replace('j', '.10.', $transforma);
+      $transforma10[] = str_replace('j', '.18.', $transforma);
 
     }
 
     $transforma11 = [];
     foreach ($transforma10 as $transforma) {
-      $transforma11[] = str_replace('x', '.11.', $transforma);
+      $transforma11[] = str_replace('x', '.19.', $transforma);
 
     }
 
     $transforma12 = [];
     foreach ($transforma11 as $transforma) {
-      $transforma12[] = str_replace('l', '.12.', $transforma);
+      $transforma12[] = str_replace('l', '.2.', $transforma);
 
     }
 
     $transforma13 = [];
     foreach ($transforma12 as $transforma) {
-      $transforma13[] = str_replace('r', '.13.', $transforma);
+      $transforma13[] = str_replace('r', '.20.', $transforma);
 
     }
 
     $transforma14 = [];
     foreach ($transforma13 as $transforma) {
-      $transforma14[] = str_replace('n', '.14.', $transforma);
+      $transforma14[] = str_replace('n', '.3.', $transforma);
 
     }
 
     $transforma15 = [];
     foreach ($transforma14 as $transforma) {
-      $transforma15[] = str_replace('q', '.15.', $transforma);
+      $transforma15[] = str_replace('q', '.4.', $transforma);
 
     }
 
     $transforma16 = [];
     foreach ($transforma15 as $transforma) {
-      $transforma16[] = str_replace('m', '.16.', $transforma);
+      $transforma16[] = str_replace('m', '.5.', $transforma);
 
     }
 
     $transforma17 = [];
     foreach ($transforma16 as $transforma) {
-      $transforma17[] = str_replace('g', '.17.', $transforma);
+      $transforma17[] = str_replace('g', '.6.', $transforma);
 
     }
 
     $transforma18 = [];
     foreach ($transforma17 as $transforma) {
-      $transforma18[] = str_replace('p', '.18.', $transforma);
+      $transforma18[] = str_replace('p', '.7.', $transforma);
 
     }
 
     $transforma19 = [];
     foreach ($transforma18 as $transforma) {
-      $transforma19[] = str_replace('s', '.19.', $transforma);
+      $transforma19[] = str_replace('s', '.8.', $transforma);
 
     }
 
     $transforma20 = [];
     foreach ($transforma19 as $transforma) {
-      $transforma20[] = str_replace('b', '.20.', $transforma);
+      $transforma20[] = str_replace('b', '.9.', $transforma);
 
     }
-
 
     sort($transforma20);
 
@@ -247,115 +246,115 @@ class Pergaminho {
 
     $ordemAlfabetica2 = [];
     foreach ($ordemAlfabetica as $transfoma) {
-      $ordemAlfabetica2[] = str_replace('.2.', 'w', $transfoma);
+      $ordemAlfabetica2[] = str_replace('.10.', 'w', $transfoma);
 
     }
 
     $ordemAlfabetica3 = [];
     foreach ($ordemAlfabetica2 as $transfoma) {
-      $ordemAlfabetica3[] = str_replace('.3.', 'h', $transfoma);
+      $ordemAlfabetica3[] = str_replace('.11.', 'h', $transfoma);
 
     }
 
     $ordemAlfabetica4 = [];
     foreach ($ordemAlfabetica3 as $transfoma) {
-      $ordemAlfabetica4[] = str_replace('.4.', 'z', $transfoma);
+      $ordemAlfabetica4[] = str_replace('.12.', 'z', $transfoma);
 
     }
 
     $ordemAlfabetica5 = [];
     foreach ($ordemAlfabetica4 as $transfoma) {
-      $ordemAlfabetica5[] = str_replace('.5.', 'k', $transfoma);
+      $ordemAlfabetica5[] = str_replace('.13.', 'k', $transfoma);
 
     }
 
     $ordemAlfabetica6 = [];
     foreach ($ordemAlfabetica5 as $transfoma) {
-      $ordemAlfabetica6[] = str_replace('.6.', 'd', $transfoma);
+      $ordemAlfabetica6[] = str_replace('.14.', 'd', $transfoma);
 
     }
 
     $ordemAlfabetica7 = [];
     foreach ($ordemAlfabetica6 as $transfoma) {
-      $ordemAlfabetica7[] = str_replace('.7.', 'f', $transfoma);
+      $ordemAlfabetica7[] = str_replace('.15.', 'f', $transfoma);
 
     }
 
     $ordemAlfabetica8 = [];
     foreach ($ordemAlfabetica7 as $transfoma) {
-      $ordemAlfabetica8[] = str_replace('.8.', 'v', $transfoma);
+      $ordemAlfabetica8[] = str_replace('.16.', 'v', $transfoma);
 
     }
 
     $ordemAlfabetica9 = [];
     foreach ($ordemAlfabetica8 as $transfoma) {
-      $ordemAlfabetica9[] = str_replace('.9.', 'c', $transfoma);
+      $ordemAlfabetica9[] = str_replace('.17.', 'c', $transfoma);
 
     }
 
     $ordemAlfabetica10 = [];
     foreach ($ordemAlfabetica9 as $transfoma) {
-      $ordemAlfabetica10[] = str_replace('.10.', 'j', $transfoma);
+      $ordemAlfabetica10[] = str_replace('.18.', 'j', $transfoma);
 
     }
 
     $ordemAlfabetica11 = [];
     foreach ($ordemAlfabetica10 as $transfoma) {
-      $ordemAlfabetica11[] = str_replace('.11.', 'x', $transfoma);
+      $ordemAlfabetica11[] = str_replace('.19.', 'x', $transfoma);
 
     }
 
     $ordemAlfabetica12 = [];
     foreach ($ordemAlfabetica11 as $transfoma) {
-      $ordemAlfabetica12[] = str_replace('.12.', 'l', $transfoma);
+      $ordemAlfabetica12[] = str_replace('.2.', 'l', $transfoma);
 
     }
 
     $ordemAlfabetica13 = [];
     foreach ($ordemAlfabetica12 as $transfoma) {
-      $ordemAlfabetica13[] = str_replace('.13.', 'r', $transfoma);
+      $ordemAlfabetica13[] = str_replace('.20.', 'r', $transfoma);
 
     }
 
     $ordemAlfabetica14 = [];
     foreach ($ordemAlfabetica13 as $transfoma) {
-      $ordemAlfabetica14[] = str_replace('.14.', 'n', $transfoma);
+      $ordemAlfabetica14[] = str_replace('.3.', 'n', $transfoma);
 
     }
 
     $ordemAlfabetica15 = [];
     foreach ($ordemAlfabetica14 as $transfoma) {
-      $ordemAlfabetica15[] = str_replace('.15.', 'q', $transfoma);
+      $ordemAlfabetica15[] = str_replace('.4.', 'q', $transfoma);
 
     }
 
     $ordemAlfabetica16 = [];
     foreach ($ordemAlfabetica15 as $transfoma) {
-      $ordemAlfabetica16[] = str_replace('.16.', 'm', $transfoma);
+      $ordemAlfabetica16[] = str_replace('.5.', 'm', $transfoma);
 
     }
 
     $ordemAlfabetica17 = [];
     foreach ($ordemAlfabetica16 as $transfoma) {
-      $ordemAlfabetica17[] = str_replace('.17.', 'g', $transfoma);
+      $ordemAlfabetica17[] = str_replace('.6.', 'g', $transfoma);
 
     }
 
     $ordemAlfabetica18 = [];
     foreach ($ordemAlfabetica17 as $transfoma) {
-      $ordemAlfabetica18[] = str_replace('.18.', 'p', $transfoma);
+      $ordemAlfabetica18[] = str_replace('.7.', 'p', $transfoma);
 
     }
 
     $ordemAlfabetica19 = [];
     foreach ($ordemAlfabetica18 as $transfoma) {
-      $ordemAlfabetica19[] = str_replace('.19.', 's', $transfoma);
+      $ordemAlfabetica19[] = str_replace('.8.', 's', $transfoma);
 
     }
 
     $ordemAlfabetica20 = [];
     foreach ($ordemAlfabetica19 as $transfoma) {
-      $ordemAlfabetica20[] = str_replace('.20.', 'b', $transfoma);
+      $ordemAlfabetica20[] = str_replace('.9.', 'b', $transfoma);
 
     }
 
