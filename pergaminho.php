@@ -54,7 +54,6 @@ class Pergaminho {
     $palavras = explode(" ", $this->textoB);
     $verbos = [];
     $foo = [];
-    // $primeiraPessoa = [];
     $finalVerbos = [];
 
     //separa o array do texto
@@ -90,13 +89,13 @@ class Pergaminho {
   $verbosNormais = [];
   $verbosPrimeiraPessoa = [];
   //separa as primeiras letras
-  foreach ($primeirasLetras as $a) {
+  foreach ($primeirasLetras as $primeira) {
     //veririca se começam com letras tipo foo
-    if ($a == 'r' || $a == 't' || $a == 'c' || $a == 'd' || $a == 'b') {
-        $verbosNormais[] = $a;
+    if ($primeira == 'r' || $primeira == 't' || $primeira == 'c' || $primeira == 'd' || $primeira == 'b') {
+        $verbosNormais[] = $primeira;
     }else {
       //as palavras que não tiverem...
-      $verbosPrimeiraPessoa[] = $a;
+      $verbosPrimeiraPessoa[] = $primeira;
     }
   }
 
